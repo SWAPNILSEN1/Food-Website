@@ -1,0 +1,231 @@
+*
+{
+    margin:0px;
+    padding:0px;
+}
+/* navigation bar */
+#navbar
+{
+    display:flex;
+    align-items: center;
+    position:relative;
+    height: 69px;
+}
+/* navigation bar: logo is the id for div holding the image */
+#logo
+{
+    margin:5px 5px;
+
+}
+/* navigation bar: image */
+#logo img{
+    height: 54px;
+    margin: 22px 20px;
+}
+#menu
+{
+    display:flex;
+}
+#navbar::before
+{
+    content:"";
+    position:absolute;
+    height:100%;
+    width:100%;
+    background-color:black;
+    opacity:0.5;
+    z-index: -1;
+
+}
+#menu li
+{
+    text-decoration: none;
+    font-weight: bold;
+    list-style: none;
+    font-size: 1.1rem;
+    
+}
+#menu li a
+{
+    padding:4px 10px;
+    color:white;
+    width:5px;
+}
+#menu li a:hover
+{
+    border-radius:5px;
+    background-color: black;
+    padding:4px 10px;
+    border-radius:20px;
+
+}
+/* HOME SECTION //////////////////////////////////////////////////////////////////////////////////////////// */
+.center
+{
+    text-align: center;
+}
+#home
+{
+    display:flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+    padding:3px 200px;
+    height: 150px;
+    
+}
+#home::before{
+    content:"";
+    position:absolute;
+    background:url("bg1.jpg") no-repeat center center/cover;
+    height:70vh;
+    width:100%;
+    z-index: -1;
+    opacity:0.89;
+}
+#home
+{
+    margin:10px;
+    height:300px;
+}
+.h-primary{
+    font-size: 3.5rem;
+    padding:20px;
+}
+.h-secondary
+{
+    font-size:2rem;
+    padding:12px;
+}
+#home h1{
+    color:white;
+    
+}
+
+#firstpara
+{
+    color:whitesmoke;
+    font-size: 1.5rem;
+}
+.btn
+{
+    height:23px;
+    width:87px;
+    border-radius:10px;
+    font-size: 1rem;
+    margin:12px;
+
+}
+.btn:hover{
+    background-color: black;
+    color:white;
+    cursor: pointer;
+}
+/* SERVICES ///////////////////////////////////////////////////////////////////////////////////////////////// */
+#services
+{
+    margin:34px;
+    display:flex;
+}
+#firstimage
+{
+    height: 136px;
+    width:155px;
+    margin:auto;
+    display:block;
+}
+.services-container h1
+{
+    margin-top:100px;
+}
+#secondpara
+{
+    font-size:1.1rem;
+}
+.box
+{
+    border:solid 2px red;
+    margin: 28px;
+    padding:10px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    border-radius:10px;
+}
+/* CLIENT SECTION ///////////////////////////////////////////////////////////////////////////////////////// */
+#client-section
+{
+    height: 469px;
+}
+#client-section::before
+{
+    content:"";
+    position:absolute;
+    z-index: -1;
+    background: url("bg.jpg");
+    height:66%;
+    width:100%;
+    opacity: 0.6;
+
+}
+#clients
+{
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+    
+}
+.client-items
+{
+    padding:10px;
+}
+.client-items img
+{
+    height:12rem;
+    margin-top: 1.7rem;
+    
+}
+/* CONTACT SECTION ////////////////////////////////////////////////////////////////////////////////////////// */
+#contact::before
+{
+    content:"";
+    position:absolute;
+    z-index: -1;
+    height:95%;
+    width:100%;
+    background: url("contact.jpg");
+}
+.contact-box
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+.contact-box form
+{
+    width:40%;
+}
+.form-group 
+{
+    padding:8px;
+    width:10.5rem;
+    font-size:1.1rem;
+}
+.form-group input{
+    width:30rem;
+    border-radius:10px;
+    height: 2rem;
+}
+.form-group textarea
+{
+    width:30rem;
+}
+
+/* Footer */
+#copy1
+{
+    margin-top: 8.6rem;
+    background-color: black;
+    color: white;
+}

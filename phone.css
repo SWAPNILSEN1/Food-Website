@@ -1,0 +1,46 @@
+/* body{
+    width:100%;
+} */
+/* navigation section ////////////////////////////////////////////////////////////////*/
+#navbar
+{
+    flex-direction:column;
+    
+}
+#logo
+{
+    margin:-8px 5px;
+}
+
+
+/* home section///////////////////////////////////////////////////////////////////////// */
+#home
+{
+    height: 30rem;
+    padding:3px 43px;
+    
+}
+#home::before{
+    height: 50rem;
+    
+}
+#home h1
+{
+    font-size:2rem;
+}
+#home p{
+    font-size:1rem;
+}
+/* services section////////////////////////////////////////////////////////////////////// */
+#services
+{
+    flex-direction: column;
+}
+/* client section/////////////////////////////////////////////////////////////////////// */
+#clients 
+{
+    overflow:hidden;
+}
+/* contact section////////////////////////////////////////////////////////////////////// */
+#form-group
+{overflow: hidden;}
